@@ -1,0 +1,13 @@
+---
+- name: working with db servers
+  hosts: dbserver1
+  vars_files:
+    - vars/secrets.yaml
+  roles:
+    - mariadb
+- name: working with app role
+  hosts: appserver1
+  vars_files:
+    - vars/secrets.yaml
+  roles:
+    - app
