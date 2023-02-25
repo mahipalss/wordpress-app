@@ -1,9 +1,9 @@
 # wordpress-app
 Take 3servers 1controller, 1app-server, 1db-server
 # install ansible in controller
-$ sudo yum update -y
-$ sudo amazon-linux-extras install ansible2 -y
-$ ansible --version
+#$ sudo yum update -y
+#$ sudo amazon-linux-extras install ansible2 -y
+#$ ansible --version
 
 add ansiblehosts
 add pemkey
