@@ -1,6 +1,6 @@
 # wordpress-app
 Take 3servers 1controller, 1app-server, 1db-server
-#install ansible in controller
+# install ansible in controller
 $ sudo yum update -y
 $ sudo amazon-linux-extras install ansible2 -y
 $ ansible --version
@@ -8,7 +8,7 @@ $ ansible --version
 add ansiblehosts
 add pemkey
 add ansible.cfg
-add roles,apache,mariadb,wordpress
+# add roles,apache,mariadb,wordpress
 #write playbooks on apache,mariadb,wordpress
 add main.yaml
 
