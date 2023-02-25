@@ -3,9 +3,9 @@
 
 ## install ansible in controller
 //some comments
-line 1 of code sudo yum update -y
-line 2 of code sudo amazon-linux-extras install ansible2 -y
-line 3 of code ansible --version
+line 1 of install ansible in controller sudo yum update -y
+line 2 of install ansible in controller sudo amazon-linux-extras install ansible2 -y
+line 3 of install ansible in controller ansible --version
 
 ### add ansiblehosts
 ### add pemkey
