@@ -2,10 +2,10 @@
 + Take 3servers 1controller, 1app-server, 1db-server
 
 ## install ansible in controller
-//
- + sudo yum update -y
- + sudo amazon-linux-extras install ansible2 -y
- + ansible --version
+//some comments
+line 1 of code sudo yum update -y
+line 2 of code sudo amazon-linux-extras install ansible2 -y
+line 3 of code ansible --version
 
 ### add ansiblehosts
 ### add pemkey
