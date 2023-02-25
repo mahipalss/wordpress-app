@@ -2,7 +2,7 @@
 + Take 3servers 1controller, 1app-server, 1db-server
 
 ## install ansible in controller
- // some comments
+ // Some comments
  line 1 of install ansible in controller sudo yum update -y
  line 2 of install ansible in controller sudo amazon-linux-extras install ansible2 -y
  line 3 of install ansible in controller ansible --version
