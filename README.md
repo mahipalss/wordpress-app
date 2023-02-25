@@ -7,14 +7,14 @@
  sudo amazon-linux-extras install ansible2 -y
  ansible --version
 ```
-### add ansiblehosts
-### add pemkey
-### add ansible.cfg
-### 3 add roles,apache,mariadb,wordpress
-### write playbooks on apache,mariadb,wordpress
-### add main.yaml
++ add ansiblehosts
++ add pemkey
++ add ansible.cfg
++ 3 add roles,apache,mariadb,wordpress
++ write playbooks on apache,mariadb,wordpress
++ add main.yaml
 
-## add vars (define secret variables in vars)
++ Add vars (define secret variables in vars)
  - ansible-vault create secrets.yaml
  - ansible-vault edit secrets.yaml
  - ansible-vault view secrets.yaml
