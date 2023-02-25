@@ -1,5 +1,6 @@
 # wordpress-app
-add ansiblehosts
+
+#add ansiblehosts
 add pemkey
 add ansible.cfg
 add roles,apache,mariadb,wordpress
