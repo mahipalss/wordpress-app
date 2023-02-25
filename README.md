@@ -22,11 +22,14 @@
 
 ## Add a Dockerfile in the controller-server
 ### build image and build container
-+ docker build -t "image" .
-+ docker run -itd --name container1 -p 8081:80 -v /app:/var/www/html image
-+ docker run -itd --name container2 -p 8082:80 -v /app:/var/www/html image
-
-## yum install nginx -y
-+ vim /etc/nginx/conf.d/default.conf  ---configurationfile-add 2 container ports to hit 80
-+ systemctl enable nginx
-+ systemctl restart nginx
+```
+docker build -t "image" .
+docker run -itd --name container1 -p 8081:80 -v /app:/var/www/html image
+docker run -itd --name container2 -p 8082:80 -v /app:/var/www/html image
+```
+```
+yum install nginx -y
+vim /etc/nginx/conf.d/default.conf  ---configurationfile-add 2 container ports to hit 80
+systemctl enable nginx
+systemctl restart nginx
+```
